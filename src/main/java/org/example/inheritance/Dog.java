@@ -10,7 +10,7 @@ public class Dog  extends Animal {
     @Override
     public void getRun(int value) {
         if(value == run){
-            System.out.println("Песик побежал");
+            System.out.println("Песик пробежал");
 
         } else
             System.out.println("Очень быстро");

@@ -7,7 +7,7 @@ public class Cat extends Animal {
     @Override
     public void getRun(int value) {
         if(value == run){
-            System.out.println("Котик побежал");
+            System.out.println("Котик пробежал");
 
         } else
             System.out.println("Очень быстро");

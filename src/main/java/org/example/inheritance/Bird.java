@@ -8,7 +8,7 @@ public class Bird extends Animal{
     @Override
     public void getRun(int value) {
         if (value == run) {
-            System.out.println("Птица  побежала");
+            System.out.println("Птица  пробежала");
 
         } else
             System.out.println("Очень быстро");
