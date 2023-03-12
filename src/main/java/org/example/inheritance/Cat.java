@@ -1,5 +1,6 @@
 package org.example.inheritance;
 
+
 public class Cat extends Animal {
     int run = 200;
     int jump = 2;

@@ -1,5 +1,6 @@
 package org.example.inheritance;
 
+
 public class Horse extends Animal {
 
     int run = 1500;
