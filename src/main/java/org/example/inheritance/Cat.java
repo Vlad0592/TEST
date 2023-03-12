@@ -3,6 +3,7 @@ package org.example.inheritance;
 public class Cat extends Animal {
     int run = 200;
     int jump = 2;
+
     @Override
     public void getRun(int value) {
         if(value == run){

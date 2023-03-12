@@ -18,6 +18,7 @@ public class Main {
         horse.getJump(3);
         horse.getSwim(100);
 
+
         Bird bird = new Bird();
         bird.getRun(5);
         bird.getJump(0.2);

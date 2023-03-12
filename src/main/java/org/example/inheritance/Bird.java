@@ -1,6 +1,7 @@
 package org.example.inheritance;
 
 public class Bird extends Animal{
+
     private int run = 5;
     private double jump  = 0.2;
 

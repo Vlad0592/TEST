@@ -6,6 +6,7 @@ public class Dog  extends Animal {
     double jump = 0.5;
     int swim = 10;
 
+
     @Override
     public void getRun(int value) {
         if(value == run){

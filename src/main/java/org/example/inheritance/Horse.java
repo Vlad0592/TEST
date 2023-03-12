@@ -6,6 +6,7 @@ public class Horse extends Animal {
     int jump = 3;
     int swim = 100;
 
+
     @Override
     public void getRun(int value) {
         if (value == run) {
