@@ -25,7 +25,6 @@ public class Dog  extends Animal {
             System.out.println("Высоко");
 
 }
-
     @Override
     public void getSwim(int value) {
         if(value == swim){

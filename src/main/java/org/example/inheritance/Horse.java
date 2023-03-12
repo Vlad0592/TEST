@@ -25,7 +25,6 @@ public class Horse extends Animal {
             System.out.println("Не могу");
 
     }
-
     @Override
     public void getSwim(int value) {
         if(value == swim){

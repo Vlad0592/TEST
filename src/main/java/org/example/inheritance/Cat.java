@@ -13,6 +13,7 @@ public class Cat extends Animal {
 
     }
 
+
     @Override
     public void getJump(int value) {
         if(value == jump){

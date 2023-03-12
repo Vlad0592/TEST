@@ -2,6 +2,7 @@ package org.example.inheritance;
 
 public class Animal {
 
+
     public void getRun(int value) {
         System.out.println("Бегу");
     }

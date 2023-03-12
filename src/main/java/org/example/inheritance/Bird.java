@@ -13,8 +13,6 @@ public class Bird extends Animal{
             System.out.println("Очень быстро");
 
     }
-
-
     public void getJump(double value) {
         if (value == jump) {
             System.out.println("Птица  прыгает");
