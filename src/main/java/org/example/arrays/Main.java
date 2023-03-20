@@ -45,6 +45,7 @@ public class Main {
 
      Employee people = new Employee("Петров Иван Васильевич",34000,23,"Аналитик",895464333);
 
+
         System.out.println(people.getFio() + "," +  people.getPosition());
 
 
@@ -78,8 +79,17 @@ public class Main {
         }
 
 
+        System.out.println();
+        Employee.increaseSalary();
+        for(int i = 0; i < employeesArr.length; i++){
+            if(employeesArr[i] != null) {
+                System.out.println("Name: " + employeesArr[i].getFio() + ", salary: " + employeesArr[i].getSalary() +
+                        ", age:" + employeesArr[i].getAge());
+            }
+        }
 
     }
+
     }
 
 

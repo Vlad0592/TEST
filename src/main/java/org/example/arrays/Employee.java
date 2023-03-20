@@ -3,7 +3,7 @@ package org.example.arrays;
 
 public class Employee {
     private String fio;
-    private int salary;
+    int salary;
     private int age;
     private String position;
     private int phone;
@@ -61,7 +61,8 @@ public class Employee {
 
 
 
-    }
+
+}
 
 
 
