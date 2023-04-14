@@ -7,10 +7,11 @@ public class Dog  extends Animal {
     double jump = 0.5;
     int swim = 10;
 
+
     @Override
     public void getRun(int value) {
         if(value == run){
-            System.out.println("Песик побежал");
+            System.out.println("Песик пробежал");
 
         } else
             System.out.println("Очень быстро");
@@ -26,7 +27,6 @@ public class Dog  extends Animal {
             System.out.println("Высоко");
 
 }
-
     @Override
     public void getSwim(int value) {
         if(value == swim){
