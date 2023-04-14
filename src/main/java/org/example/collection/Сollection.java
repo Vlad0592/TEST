@@ -12,7 +12,7 @@ public class Сollection {
         return new HashSet<>(collection);
     }
 
-    public static void Lists() {
+    public static void lists() {
         ArrayList<Double> arrayList = new ArrayList<>();
         LinkedList<Double> linkedList = new LinkedList<>();
         final int Number = 1000000;
